@@ -1,0 +1,114 @@
+von 1 4
+Filemaker Projekte
+Betriebssoftware Mobydisc
+Die Mobydisc GmbH betreibt seit 1990 einen mobilen DJ Service. Der Personalstamm besteht
+aus 6 Bürokräften und ca. 100 Discjockeys nebst der dazugehörigen Technik, sowie einem
+erweiterten Pool aus freien „Springern“.
+Zusätzlich gibt es eine Vermietung von Veranstaltungstechnik, vornehmlich Karaoke- Systeme
+und Jukeboxen (Musikboxen).
+Von 1990 bis 2016 wurde gemeinsam mit der australischen Schwesterfirma eine eigene
+Betriebssoftware durch die Firma Friendlyware Pty Ltd entwickelt und genutzt. Als Ersatz für
+diese in Clipper programmierte Lösung wurde die unten näher beschriebene Filemaker Lösung
+selbst entwickelt und seither den Betriebsbedürfnissen entsprechend ausgebaut.
+Das operative Geschäft wurde Ende 2019 an die ehemaligen Mitarbeiter übertragen. Hierzu
+wurde eine zweite Firma (mobydisc DJ Service UG) gegründet.
+Die GmbH erhält von der UG Lizenzahlungen je abgewickeltem Auftrag, kümmert sich weiter
+um die Anpassung der IT, das Online Marketing und betreibt überdies für diesen Zweck diverse
+Hochzeitswebseiten.
+Auftragsbearbeitung
+Angebotseingabe, Prüfung der Verfügbarkeit, Preiskalkulation und Follow-ups. Auftrags- (Event)
+verwaltung. Disposition der Discjockeys, bzw. technischen Equipments. Anzeige der
+verfügbaren Discjockey in Reihenfolge zur Entfernung zum Einsatzort. Planung und Versand von
+technischem Equipment. Rechnungsstellung und Verfolgung von Zahlungseingängen.
+Ca. 7.000 Anfragen pro Jahr / 2.000 Veranstaltungen.
+CRM System für B2B Kunden / Agenturen / Locations
+CRM für Firmenkunden, Hotels-, Locations und Agenturen, sowie der zugehörigen Kontakte.
+Verknüpfung zu Auftragsbearbeitung einerseits als Auftraggeber, aber auch als Ort der
+Veranstaltung oder Source (Empfehlung) eines Auftrages sein.
+Kickback-Verwaltung bei Empfehlungen im Gastronomiebereich. Provisionsabrechnung im
+Agenturgeschäft.
+Das CRM zielt im Gegensatz zu üblichen CRM in erster Linie erstrangig auf die Firma (Hotel /
+Location) und zweitrangig auf die Mitarbeiter ab.
+17.000 Firmen / 30.000 Kontakte
+Personal / DJs
+Mitarbeiterverwaltung ca. 200 aktive DJs inklusive Abrechnungsmodul für
+- freiberufliche Mitarbeiter
+- kurzfristig Beschäftigte
+- Minijobber
+von 2 4
+Automatische Berechnung der steuerfreien Zuschläge bei Wochenend- und Nachtarbeit, sowie
+an speziellen Feiertagen. Automatische Berücksichtigung der gesetzlichen Vorschriften bei
+kurzfristig Beschäftigten ( 50 Tage-Limit max. 1 Jahr ). Automatische Berechnung der Fahrtkosten
+für Discjockey vom Wohnort zum Einsatzort unter Nutzung von Google Maps Apis.
+Verfügbarkeitskalender für Disposition der Mitarbeiter. Verwaltung des an die Mitarbeiter
+herausgegebenen Inventars. Verwaltung der relevanten Dokumente / Arbeitsverträge /
+Nachweise etc.
+Technik
+Inventarverwaltung ca. 200 mobile Musikanlagen, Barcode Verwaltung bei Ein- und Ausgabe
+über mobile Endgeräte. Kalenderfunktion bei Vermietungen. Schnittstelle an DHL
+Auftragsdienst bei Versand von Technik.
+Rechnungswesen
+Erstellen von Rechnungen, Verwaltung von Zahlungseingängen, Mahnwesen. Blockierung von
+Auftragsdisposition bei unbezahlten Rechnungen.
+Export Rechnungsdaten für DATEV. Export Sammellastschriften für Starmoney Business.
+History
+Speicherung der Änderungen von Daten durch Mitarbeiter, sowie aus- und eingehende
+Kommunikation mit Kunden und DJs bei Auftragsbearbeitung, CRM und Personalverwaltung.
+Bewerberverwaltung
+Ca. 700 Bewerbungen müssen pro Jahr bearbeitet werden. Datenquelle sind Online
+Fragebögen (Zoho).
+Eine Herausforderung war, dass auch die schlimmsten Bewerbungen zeitnah und freundlich
+beantwortet werden müssen, um negative Kommentare in den sozialen Medien zu vermeiden.
+Import der Daten von Zohoforms. Screening der Bewerbungen mit verschiedenen Filtern und
+Antwortmöglichkeiten.
+Kommunikation per SMS / Mail / Telefon mit automatischer History und Taskverfolgung.
+Bei erfolgreichen Bewerbern Planung der DJ Ausbildung -> Übernahme ins DJ Programm.
+Musikdatenbank
+Abgleich der Online eingereichten Kundenwünsche mit den Musikbibliotheken der Discjockeys.
+XML Import von Itunes Mediatheken.
+Abgleich von eingereichten Kunden Playlisten - Automatische Erstellung von Itunes kompatiblen
+Listen und Export nach Itunes Mediathek. Bei Disposition Hinweis auf zu besorgende fehlende
+Titel.
+Taskverwaltung
+Taskverwaltung in den Bereichen Auftragsbearbeitung, Personal und Bewerber. Tasks nach
+Mitarbeitern gefiltert mit Kalenderfunktion -> Telefonliste zum abarbeiten.
+von 3 4
+Telefonbuch / SMS
+Kommunikation mit DJs und Bewerbern hauptsächlich über SMS. Anbindung an Twilio Api
+erlaubt Empfang von SMS und Zuordnung zu Person. Chatmodul (wie vom Smartphone
+gewöhnt )
+Anbindungen
+• Twilio / SMS Versand und Empfang hauptsächlich im Rahmen der DJ & Bewerber
+Kommunikation.
+• Mailjet Api - Emailversand
+• Sendinblue Api - Emailversand ab 2022
+• DHL API
+• Starface Telefonanlage
+Einbindung externe PostgreSQL Datenbank ( Django CMS https://mobydisc.de )
+• Import Kundenanfragen
+• Online Bewertungssystem DJs durch Kunden nach Einsatz
+• DJ Datenbank -> Online Profile
+• Musikdatenbank -> Playlistbuilder für Kunden
+Genutzte Plugins
+• MBS
+Weitere Projekte:
+Filemaker App zur Bewertung von Online Fragebögen
+Im Rahmen einer Bachelorarbeit von Psychologiestudenten der Uni Graz mussten insgesamt
+10.000 Antworten von Probanden hinsichtlich Ihrer Kreativität von 4 Testleitern mit einer
+Punktezahl hinsichtlich Ihrer Kreativität bewertet und anschliessend statistisch ausgewertet
+werden. Die Daten wurden mit online Formularen und freien Textfelder erhoben. Die App diente
+der Säuberung der Daten in einzelne bewertbare „Ideen“, die dann mittels einer IOS App rasch
+bewertet werden konnten.
+Datenbankverwaltung für Hochzeitswebseiten
+Für die Projekte https://hochzeitsservice-online.de , https://hochzeitsmessen.de und https://
+hochzeit-top50.de hält die Lösung einerseits eine Datenbank der 360 größten deutschen
+Städte. Suche nach und Import von Daten / Adressen von Hochzeitsanbietern, Kirchen,
+Standesämter etc. vornehmlich über Google Maps inkl. Geokoordinaten. Abgleich der Daten
+mit Google Geo APIs.. Webscraping. Entfernungsberechnung zu Städten und
+Verknüpfungsvorschläge mit Stadtdatenbank nach „Nähe“.
+Export der Daten einerseits für WPGeodirectory und Multipages Generator.
+Kommunikation mit Hochzeitsanbietern und rudimentäres CRM für Kontakte aus dem Bereich.
+Vorherige Erfahrungen mit relationellen Datenbanken
+• Goldmine CRM
+• Combit Relationship Manager
+von 4 4

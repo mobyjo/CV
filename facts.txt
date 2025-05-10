@@ -1,0 +1,17 @@
+Tätigkeiten bei HBSE in den letzten zwei Jahren:
+
+Eingestellt als Senior Software Developer (Claris / Filemaker)
+Erweiterung Backend iSure (Versicherungswesen), insbesondere
+- Schnittstelle Frontend Module (node JS)
+- Migration Hauptdatenbank zu noSQL Technologie. MongoDB. Aneignung Expertenwissen in Atlas MongoDB.
+- Aufbau noSQL Datenbankmodell für die Hesse Digital 
+- ETL Pipelines zur Integration von Borderau Daten in das Policenmodell
+- Entwicklung von Aggregation Pipelines für Finanzbuchhaltung und Rechnungsstellung
+- Backupstrategien und Datenbank access / Verwaltung
+- Entwicklung automatisierter Versionskontrolle und History über change Stream Trigger JS.
+- Bereitstellung Datalake für Analysten und Aktuare
+- Bereitsstellung von Auswertungen über Atlas Charts.
+- Import von Policen- und Claimsdaten, Reinigung von Daten. Anwendung von machine learning zur Analyse über mindsDB und dataiku.
+- Einhaltung regulatorischer Anforderungen und Einführung von Compliance Software (DORA)
+- Aufbau Projektmanagement Tool und Ticketsystem per Jira Service Management
+
